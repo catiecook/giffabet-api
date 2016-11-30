@@ -31,7 +31,7 @@ router.get('/:letter', (req, res, next) => {
     root: __dirname + '/../public/letters'
     }
 
-  res.send(req.params.letter + '.json', options, (err) => {
+  res.sendFile(req.params.letter + '.json', options, (err) => {
     if (err) {
           console.log(err);
           res.status(err.status).end();
