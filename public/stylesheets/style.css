@@ -26,6 +26,16 @@ body {
   width: 70%;
 }
 
+ .wordInput {
+   padding: 1.5%;
+   margin-right: 5%;
+   width: 70%;
+ }
+
+ #letter {
+   width: 50%;
+ }
+
  h1 {
    font-weight: 100;
    font-size: 4em;
@@ -51,12 +61,6 @@ body {
 
  p{
    margin-left: 10%;
- }
-
- .wordInput {
-   padding: 1.5%;
-   margin-right: 5%;
-   width: 70%;
  }
 
  button {
