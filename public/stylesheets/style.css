@@ -19,14 +19,38 @@ body {
 }
 
 .container {
-  width: 50%;
+  width: 70%;
+}
+
+.container--letter {
+  width: 70%;
 }
 
  h1 {
    font-weight: 100;
-   font-size: 3em;
+   font-size: 4em;
    font-family: 'Just Another Hand', cursive;
    letter-spacing: 3px;
+ }
+
+ h2 {
+   font-weight: 100;
+   font-size: 2.5em;
+   font-family: 'Just Another Hand', cursive;
+   letter-spacing: 3px;
+ }
+
+ h3 {
+   font-weight: 100;
+   font-size: 2.5em;
+   line-height: 0%;
+   font-family: 'Just Another Hand', cursive;
+   letter-spacing: 3px;
+   margin-top: 15%;
+ }
+
+ p{
+   margin-left: 10%;
  }
 
  .wordInput {
