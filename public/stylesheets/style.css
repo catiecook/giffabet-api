@@ -22,11 +22,11 @@ body {
 }
 
 .container {
-  width: 70%;
+  width: 90%;
 }
 
 .container--letter {
-  width: 70%;
+  width: 90%;
 }
 
  .wordInput {
@@ -36,7 +36,7 @@ body {
  }
 
  #letter {
-   width: 50%;
+   width: 40%;
  }
 
  h1 {
